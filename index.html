@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquesrie.css">
+
+</head>
+<body>
+
+    <nav id="desktop-nav">
+        <div class="logo">Rajesh</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="About">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <nav id="hambugger-nav">
+        <div class="logo">Rajesh</div>
+            <div class="hambugger-menu" onclick="togglemenu()">
+                <div class="hambugger-icon" onclick="togglemenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            
+            <div class="menu-links">
+                <li><a href="#about" onclick="togglemenu()">About</a></li>
+                <li><a href="#Skills" onclick="togglemenu()">Skills</a></li>
+                <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                <li><a href="#contact" onclick="togglemenu">Contact</a></li>
+            </div>
+            </div>
+        
+    </nav>
+
+    <section id="profile">
+        <div class="section_pic-container">
+                <img src="./Assets/me.JPG" alt="Rajesh profile pic"  style="width: 350px; height: 350px; border-radius: 50%;">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello I'm</p>
+            <h1 class="title">Rajesh</h1>
+            <p class="section_text_p2">Full Stack Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./Assets/RajeshResume1.pdf')">Download CV</button>
+                <button class="btn btn-color-1"  onclick="location.href='./#contact'">Contact Info</button>
+
+            </div>
+            <div id="socials-container">
+                <img src="./Assets/pngwing.com (3).png" alt="my linkedin profile" class="icon" onclick="location.href='https://linkedin.com/in/rajesh-sankathala-55512a274'">
+                <img src="./Assets/github.png" alt="my github profile" class="icon" onclick="location.href='https://github.com/Rajesh2223'">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About me</h1>
+        <div class="section-container">
+            <div class="section_pic_container">
+                <img class="about-pic" src="./Assets/meeee.jpg" alt="profile pic" style="width: 300px; height: 300px;">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./Assets/" alt="" class="icon">
+                        <h3>Education</h3>
+                        <p>B.Tech <br> Computer Science</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>I am a highly motivated and ambitious individual, having completed my undergraduate studies in Computer Science Engineering from Vaagdevi Engineering College, affiliated with Jawaharlal Nehru Technological University Hyderabad (JNTUH). Throughout my academic journey, I have consistently demonstrated a strong passion for computer science and a keen interest in emerging technologies.
+                        .
+                    
+                        As a fresh graduate, I am eager to apply my knowledge and skills in a dynamic and innovative environment, where I can contribute to cutting-edge projects, collaborate with like-minded professionals, and continuously learn and grow. With my academic background, skills, and enthusiasm, I am confident in my ability to make a valuable contribution to the industry.</p>
+                </div>
+        </div>
+        </div>
+
+    </section>
+
+    <br><br>
+    <section id="skills">
+        <p class="section_text_p1">Explore my</p>
+        <h1 class="title">Skills</h1><br><br>
+        <div class="skills-details-containers">
+            <div class="details-container">
+                <h2 class="skills-sub-title">Front End Development</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./Assets/checkmark.png" alt="skills-icon" class="icon">
+                        <div>
+                            <h3>Html</h3>
+                            <p>Advanced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./Assets/checkmark.png" alt="skills-icon" class="icon">
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Advanced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./Assets/checkmark.png" alt="skills-icon" class="icon">
+                        <div>
+                            <h3>JavaScript</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    
+                    <article>
+                        <img src="./Assets/checkmark.png" alt="skills-icon" class="icon">
+                        <div>
+                            <h3>Typescript</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    </article>
+                   
+                </div>
+            </div>&nbsp; &nbsp; &nbsp;
+
+            <div class="details-container">
+                <h2 class="skills-sub-title">Back End Development</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./Assets/checkmark.png" alt="skills-icon" class="icon">
+                        <div>
+                            <h3>Java</h3>
+                            <p>Advanced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./Assets/checkmark.png" alt="skills-icon" class="icon">
+                        <div>
+                            <h3>SQl</h3>
+                            <p>Advanced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./Assets/checkmark.png" alt="skills-icon" class="icon">
+                        <div>
+                            <h3>Spring Hibernate</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    
+                    <article>
+                        <img src="./Assets/checkmark.png" alt="skills-icon" class="icon">
+                        <div>
+                            <h3>Git</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    </article>
+                   
+                </div>
+            </div>
+        </div>
+        </div>
+        
+            
+    </section>
+
+<br><br>
+    <section id="projects">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1><br><br>
+        <div class="skills-details-containers">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./Assets/fooddelivery.png" alt="project 1" class="project-img" style="margin-top: 90px;"> 
+                    <h2 class="skills-sub-title project-title" style="font-size: 15px;">Food Estimation Delivery By Using Machine Learning</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/smartinternz02/SI-GuidedProject-589465-1697086991.gitjh'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/smartinternz02/SI-GuidedProject-589465-1697086991.gitjh'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./Assets/politicalspeech.png" alt="project 2" class="project-img" style="margin-top: 140px;">
+                    <h2 class="skills-sub-title project-title" style="font-size: 15px;">Unvilling Sentiments in political speeches</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/smartinternz02/SI-GuidedProject-589465-1697086991.gitjh'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/smartinternz02/SI-GuidedProject-589465-1697086991.gitjh'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./Assets/bankmanagement.png" alt="project 3" class="project-img" style="margin-top: 20px;">
+                    
+                    <h2 class="skills-sub-title project-title" style="font-size: 15px;">Bank Management System</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/smartinternz02/SI-GuidedProject-589465-1697086991.gitjh'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/smartinternz02/SI-GuidedProject-589465-1697086991.gitjh'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+<section id="contact">
+    <p class="section_text_p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img src="./Assets/email.png" alt="email icon" class="icon contact-icon">
+            <p><a href="mailto:rjr89543@gmail.com">rjr89543@gmail.com</a></p>
+
+        </div>
+        <div class="contact-info-container">
+            <img src="./Assets/linkedin.png" alt="email icon" class="icon contact-icon">
+            <p><a href="https://www.linkedin.com/in/rajesh-sankathala-55512a274/">LinkedIn</a></p>
+
+        </div>
+    </div>
+</section>
+
+<footer>
+    <nav id="nav-links-container">
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">about</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <p>Copyright &#169; 2024 Rajesh. All Rights Reserved</p>
+</footer>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
